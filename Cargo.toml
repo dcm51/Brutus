@@ -1,0 +1,15 @@
+[package]
+name = "brutus"
+version = "0.1.0"
+authors = ["dylan"]
+
+[dependencies]
+docopt = "~0.6.78"
+rustc-serialize = "0.3.16"
+#docopt_macros = "~0.6.80"
+
+[profile.dev]
+debug = true
+
+[profile.release]
+debug = true
